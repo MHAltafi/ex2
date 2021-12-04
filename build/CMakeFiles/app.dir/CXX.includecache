@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/client.h
+iostream
+-
+vector
+-
+
+/mnt/d/cpp/tamrin2/src/client.cpp
+iostream
+-
+client.h
+/mnt/d/cpp/tamrin2/src/client.h
+random
+-
+ctime
+-
+sstream
+-
+
